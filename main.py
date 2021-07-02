@@ -12,7 +12,7 @@ name = firstName + " " + lastName
 answer = "Your answer is: "
 godspeed = "Bye, have a nice day, " + name + "."
 redirection = "Your will now be redirected to your default browser. Loading..."
-disclaimer = "The programme can only hold two terms per operation."
+disclaimer = "The programme can only hold two terms per mathematical operation."
 requestNumber1 = "Please type the first number here: "
 requestNumber2 = "Please type the second number here: "
 import webbrowser
