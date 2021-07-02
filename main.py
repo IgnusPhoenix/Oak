@@ -13,6 +13,8 @@ answer = "Your answer is: "
 godspeed = "Bye, have a nice day, " + name + "."
 redirection = "Your will now be redirected to your default browser. Loading..."
 disclaimer = "The programme can only hold two terms per operation."
+requestNumber1 = "Please type the first number here: "
+requestNumber2 = "Please type the second number here: "
 import webbrowser
 #---------------------------------------------------------------------------------------
 
@@ -24,26 +26,26 @@ while True == True:
 
     if request == "add":
         print(disclaimer)
-        number1 = float(input("Please type the first number you will add here: "))
-        number2 = float(input("Please type the second number you will add here: "))
+        number1 = float(input(requestNumber1))
+        number2 = float(input(requestNumber2))
         print(answer, number1+number2)
 
     elif request == "subtract":
         print(disclaimer)
-        number1 = float(input("Please type the first number you will subtract here: "))
-        number2 = float(input("Please type the second number subrtract here: "))
+        number1 = float(input(requestNumber1))
+        number2 = float(input(requestNumber2))
         print (answer, number1-number2)
 
     elif request == "multiply":
         print(disclaimer)
-        number1 = float(input("Please type the first number you will multiply here: "))
-        number2 = float(input("Please type the second number you will mutiply here: "))
+        number1 = float(input(requestNumber1))
+        number2 = float(input(requestNumber2))
         print(answer, number1 * number2)
 
     elif request == "divide":
         print(disclaimer)
-        number1 = float(input("Please type the dividend here: "))
-        number2 = float(input("Please type the divisor here: "))
+        number1 = float(input(requestNumber1))
+        number2 = float(input(requestNumber2))
         if request == "divide" and number2 == 0:
             print("Syntax error.")
             continue
