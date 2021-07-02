@@ -1,3 +1,6 @@
+
+import webbrowser 
+
 #introduction
 print("Hello. This is Project Oak. What is your name?")
 #--------------------------------------------------------------------------------------
@@ -15,7 +18,7 @@ redirection = "Your will now be redirected to your default browser. Loading..."
 disclaimer = "The programme can only hold two terms per mathematical operation."
 requestNumber1 = "Please type the first number here: "
 requestNumber2 = "Please type the second number here: "
-import webbrowser
+
 #---------------------------------------------------------------------------------------
 
 #main code
